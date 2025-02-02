@@ -12,6 +12,7 @@ setup(
     install_requires=[
         "requests",  # Required for API interactions (if OAuth is used)
         "msal",  # Required for Microsoft OAuth authentication
+        "pywin32",
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
