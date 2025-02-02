@@ -6,7 +6,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
-from Email import Email  # Import Email class for parsing emails
+# from Email import Email  # Import Email class for parsing emails
 
 # Try to import `win32com.client` (only works on Windows)
 try:
